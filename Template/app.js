@@ -45,7 +45,6 @@
     }
 
     function onComplete(unityInstance) {
-        window.unityInstance = unityInstance;
         loader.remove();
     }
     var resizeTimeOut;
